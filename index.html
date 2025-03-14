@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tower Defense Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Tower Defense Game</h1>
+    <div id="game">
+        <div id="grid"></div>
+        <div id="sidebar">
+            <h2>Towers</h2>
+            <button id="tower1">Buy Basic Tower ($50)</button>
+            <button id="upgradeTower">Upgrade Tower ($30)</button>
+            <p>Money: <span id="money">100</span></p>
+            <p>Lives: <span id="lives">10</span></p>
+            <p>Wave: <span id="wave">1</span></p>
+            <label for="mapDifficulty">Map Difficulty:</label>
+            <select id="mapDifficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+            <button id="startWave">Start Wave</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
